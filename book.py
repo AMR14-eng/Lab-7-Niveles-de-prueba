@@ -15,5 +15,3 @@ class Book:
         if not self.borrowed:
             raise ValueError("The book is not currently borrowed")
         self.borrowed = False
-
-
